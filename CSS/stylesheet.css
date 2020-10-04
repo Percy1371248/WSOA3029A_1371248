@@ -5,7 +5,7 @@
     max-width:auto;
 }
 body{
-    background-image:radial-gradient(black,purple) ;
+    background-image:radial-gradient(rgb(228, 215, 215),purple) ;
 }
 
 /*header{
@@ -309,4 +309,8 @@ margin-left:20%;
     margin-left: 17vh;
     height: 100%;
 
+}
+.Blog1 h1{
+    color: yellow;
+    margin-top: 5%;
 }
