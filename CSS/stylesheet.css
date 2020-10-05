@@ -8,12 +8,6 @@ body{
     background-image:radial-gradient(rgb(228, 215, 215),purple) ;
 }
 
-/*header{
-    background-image: url(../Assets/Images/purrple.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-}*/
 
 nav{
     width: 100%;
@@ -85,32 +79,7 @@ nav img{
       .dropdown:hover .dropdown-content {
         display: block;
       }
-      
-/*nav {
-    display: inline-block;
-    padding: 5px 30px;
-}
-
- nav a{
-    text-decoration: none;
-    color: white;
-    padding: 18px;
-    transition: 0.6s ease;
-}*/
-
-
-
-  
-
-/*.main{
-    max-width: 1000px;
-    margin: auto;
-    //i used this for section
-     display: flex;
-     justify-content: center;
-     align-items: center;//
-}*/
-
+    
  section{
      min-height:100%;
      justify-content: center;
