@@ -64,9 +64,9 @@ nav img{
     .dropdown-content {
         display: none;
         position: absolute;
-       /* background-color: #ec42ff44;
+        background-color: #f7adfff3;
         min-width: 100px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
       }
       
@@ -118,39 +118,40 @@ nav img{
      
  }
  .home {
-    background: linear-gradient(to left top, #c42222,  #203A43);
+    background: radial-gradient( #c42222, black);
 }
 .threeD {
-    background: linear-gradient(to left top, #55c422,  #203A43);
+    background: radial-gradient( #55c422,  black);
 }
 .twoD {
-    background: linear-gradient(to left top, #2d22c4,  #203A43);
+    background: radial-gradient( #2d22c4,  black);
 }
 .illustration {
-    background: linear-gradient(to left top, #42c422,  #203A43);
+    background: radial-gradient( orange, black);
 }
 
 .about {
-    background: linear-gradient(to left top, #c42222,  #203A43);
+    background: radial-gradient( #c42222, black);
 }
 
 .threeDContent{
-    background: linear-gradient(to left top, brown,black);
+    background: radial-gradient( #55c422,black);
 }
 .twoDContent{
-    background: linear-gradient(to left top, rgb(255, 117, 4),black);
+    background: radial-gradient(#2d22c4 ,black);
 }
 .IllusContent{
-    background: linear-gradient(to left top, rgb(4, 247, 255),black);
+    background: radial-gradient( orange,  black);
+ 
 }
 .Blog1{
-    background: linear-gradient(to left top, rgb(4, 247, 255),black);
+    background: radial-gradient( rgb(102, 0, 122),black);
 }
 .Blog2{
-    background: linear-gradient(to left top, rgb(233, 218, 8),black);
+    background: radial-gradient( rgb(102, 0, 122),black);
 }
 .Blog3{
-    background: linear-gradient(to left top, rgb(233, 218, 8),black);
+    background: radial-gradient(rgb(102, 0, 122),black);
 }
 
 .homeP{
@@ -161,7 +162,7 @@ nav img{
     align-items: center;
     width: 500px;
     height: 500px;
-    background-color: cyan;
+    background-color: green;
 }
 
  .threeDP{
@@ -172,7 +173,7 @@ nav img{
     align-items: center;
     width: 500px;
     height: 500px;
-    background-color: rgb(255, 0, 0);
+    background-color: red;
   
 }
 .twoDP{
@@ -183,7 +184,7 @@ nav img{
     align-items: center;
     width: 500px;
     height: 500px;
-    background-color: rgb(0, 255, 64);
+    background-color: orange;
 
 }
 .illustrationP{
@@ -194,7 +195,7 @@ nav img{
     align-items: center;
     width: 500px;
     height: 500px;
-    background-color: rgb(38, 0, 255);
+    background-color: blue;
     
 }
 .aboutP{
@@ -202,7 +203,7 @@ nav img{
    float: right;
     width: 500px;
     height: 600px;
-    background-color: rgb(255, 0, 200);
+    background-color:green;
     position: absolute;
     top: 1050%;
     left:20%;
