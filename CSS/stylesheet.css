@@ -1,18 +1,20 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial;
-    max-width:auto;
+    box-sizing: border-box;
 }
 body{
-    background-image:radial-gradient(rgb(228, 215, 215),purple) ;
+    font-family: Arial;
 }
 
+/*main{
+
+}
+/* NAVIGATION CSS*/
 
 nav{
     width: 100%;
-    height: 50px;
-    margin: auto;
+    height: 5.5vw;
     background-color:rgba(0, 0, 0, 0.884);
     box-shadow: 0px 3.5px 10px rgba(0, 0, 0, 0.5);
     position: fixed;
@@ -20,19 +22,16 @@ nav{
 }
 nav a{
     float: right;
-    font-size: 16px;
+    font-size: 1.5vw;
     color: white;
     text-align: center;
-    padding: 14px 60px;
+    padding: 2vw 4vw;
     text-decoration: none;
 }
 
 nav img{
-    float: left;
-    width: 300px;
-    height:300px;
-   position: absolute;
-   margin-top: -115px;
+    margin-top: -11%;
+    width: 30vw;
 
 }
 .dropdown {
@@ -41,11 +40,11 @@ nav img{
 }
 
 .dropdown .dropbtn { 
-    font-size: 16px;
+    font-size: 1.5vw;
     border: none;
     outline: none;
     color: white;
-    padding: 14px 60px;
+    padding: 2vw 4vw;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -59,9 +58,8 @@ nav img{
         display: none;
         position: absolute;
         background-color: #f7adfff3;
-        min-width: 100px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
+    
       }
       
       .dropdown-content a {
@@ -80,9 +78,10 @@ nav img{
         display: block;
       }
     
+    /* PAGE SECTIONS CSS*/  
  section{
-     min-height:100%;
-     justify-content: center;
+     min-height:55vw;
+   /*  justify-content: center;*/
      display: flex;
      
  }
@@ -127,59 +126,65 @@ nav img{
 }
 
 .homeP{
-    margin: auto;
+    margin-top: 10%;
+    margin-left: 28%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 500px;
-    height: 500px;
+    width: 40vw;
+    height: 40vw;
     background-color: green;
 }
 
  .threeDP{
-    margin: auto;
+    margin-top: 5%;
+    margin-left: 28%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 500px;
-    height: 500px;
+    width: 40vw;
+    height: 40vw;
     background-color: red;
   
 }
 .twoDP{
-    margin: auto;
+    margin-top: 5%;
+    margin-left: 28%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 500px;
-    height: 500px;
+    width: 40vw;
+    height: 40vw;
     background-color: orange;
 
 }
 .illustrationP{
-  margin: auto;
+    margin-top: 5%;
+    margin-left: 28%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 500px;
-    height: 500px;
+    width: 40vw;
+    height: 40vw;
     background-color: blue;
     
 }
 .aboutP{
     
-   float: right;
-    width: 500px;
-    height: 600px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+    height: 40vw;
     background-color:green;
-    position: absolute;
-    top: 1050%;
-    left:20%;
-    transform: translate(-50%,-50%);
+    margin-top: 10%;
+    margin-left: 4%;
+    
+    
 }
 
 .Blog1P{
@@ -224,10 +229,12 @@ nav img{
       
   }
 
+  /* PAGE HEADINGS CSS*/
+
 .homeP h1{
  
     color: rgba(255, 162, 255, 0.479);
-    font-size: 50px;
+    font-size: 9vw;
     top: 45%;
     left: 34%;
 }
@@ -235,7 +242,7 @@ nav img{
 .threeDP h1{
 
     color: rgba(255, 162, 255, 0.479);
-    font-size: 70px;
+    font-size: 9vw;
     margin-top: -115%;
 
    
@@ -244,21 +251,23 @@ nav img{
 .twoDP h1{
    
     color: rgba(255, 162, 255, 0.479);
-    font-size: 70px;
-    margin-top: -115%;
+    font-size: 9vw;
+    margin-top: -92%;
 }
 .illustrationP h1{
 
     color: rgba(255, 162, 255, 0.479);
-    font-size: 70px;
+    font-size: 9vw;
     margin-top: -115%;
 }
 .aboutP h1{
     
     color: rgba(255, 162, 255, 0.479);
-    font-size: 50px;
-    margin-top: -13%;
+    font-size: 6vw;
+    margin-top: -149%;
 }
+
+/* HEADER PAGE IMAGES CSS*/
 
 .threeDP img{
 
@@ -276,46 +285,60 @@ nav img{
     height: 110%;
 }
 .aboutP img{
-    float: right;
-    width: 100%;
-    height: 100%;
-    bottom: 5%;
-}
-.threeDVid video{
-    margin-top: 35%;
-    margin-left: -22%;
     
+    width: 100%;
+  
+}
+/* PAGE CONTENT CSS*/
+.threeDVid video{
+    margin-top: 10%;
+    margin-left: 3%;
+    width: 70vw;
 
 }
 
 .threeDvidcap{
-margin-top: 30%;
-margin-left:20%;
+    margin-top: 22%;
+    margin-left: 9%;
+    color: white;
 }
+
+.threeDvidcap h2,p{
+font-size: 2vw;
+}
+
+
+
 .twoDVid video{
-    margin-top: 35%;
-    margin-left: -22%;
+    margin-top: 10%;
+    margin-left: 3%;
+    width: 70vw;
 }
 
 .twoDvidcap{
-
-margin-top: 30%;
-margin-left:20%;
+    margin-top: 22%;
+    margin-left: 9%;
+    color: white;
 }
 
+.twoDvidcap h2,p{
+    font-size: 2vw;
+    }
+
 #Illuspic1 img{
-    float: right;
-    height: 100%;
-    margin-left: 10vh;
+    width: 100%;
+    height: 74vw;
+    margin-left: 1rem;
     
 
 }
 #Illuspic2 img{
-    float: left;
-    margin-left: 17vh;
-    height: 100%;
+    margin-left: 2rem;
+    height: 74vw;
+    width: 48vw;
 
 }
+/* BLOG PAGES CSS*/
 .Blog1P h1{
     color: rgb(255, 255, 255);
    margin-top: 1%;
