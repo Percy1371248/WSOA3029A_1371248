@@ -79,12 +79,155 @@ nav img{
       }
     
     /* PAGE SECTIONS CSS*/  
+    
  section{
      min-height:55vw;
    /*  justify-content: center;*/
      display: flex;
      
  }
+
+ @media screen and (max-width:720px){
+     section{
+      min-height:177vw;
+      }
+
+   div.homeP{
+    margin-top: 26%;
+    margin-left: 14%;
+    width: 73vw;
+    height: 117vw;
+     }
+
+   div.threeDP{
+    margin-top: 26%;
+    margin-left: 13%;
+    width: 73vw;
+    height: 117vw;
+
+   }
+
+
+   div.twoDP{
+    margin-top: 26%;
+    margin-left: 14%;
+    width: 73vw;
+    height: 117vw;
+   }
+
+   div.illustrationP{
+    margin-top: 26%;
+    margin-left: 14%;
+    width: 73vw;
+    height: 117vw;
+   }
+
+   div.aboutP{
+
+    margin-top: 26%;
+    margin-left: 14%;
+    width: 63vw;
+    height: 117vw;
+
+   }
+
+   div.threeDP img{
+
+    width: 95vw;
+    height: 100vw;
+}
+
+div.twoDP img{
+
+    width: 95vw;
+    height: 100vw;
+}
+
+div.illustrationP img{
+
+    width: 95vw;
+    height: 100vw;
+}
+
+div.homeP h1{
+ 
+    
+    font-size: 9vw;
+}
+
+div.threeDP h1{
+
+      font-size: 13vw;
+    margin-top: -180%;
+
+   
+}
+
+div.twoDP h1{
+   
+
+    font-size: 13vw;
+    margin-top: -161%;
+}
+
+div.illustrationP h1{
+
+
+    font-size: 12vw;
+    margin-top: -152%;
+}
+
+div.aboutP h1{
+    
+
+    font-size: 6vw;
+    margin-top: -149%;
+}
+
+div.threeDVid video{
+    margin-top: 55%;
+    margin-left: 0%;
+    width: 100vw;
+
+}
+
+div.threeDvidcap{
+
+    display: none;
+}
+
+
+div.twoDVid video{
+    margin-top: 55%;
+    margin-left: 0%;
+    width: 100vw;
+}
+
+div.twoDvidcap{
+    display: none;
+}
+
+
+    div#Illuspic1 img{
+    margin-top: 100%;
+    width: 100%;
+    margin-left: 0rem;
+    
+
+}
+
+div#Illuspic2 img{
+    margin-top: 81%;
+    margin-left: 0rem;
+    width: 48vw;
+
+         
+     }
+
+
+    }
+
+
  .home {
     background: radial-gradient( #c42222, black);
 }
@@ -235,8 +378,7 @@ nav img{
  
     color: rgba(255, 162, 255, 0.479);
     font-size: 9vw;
-    top: 45%;
-    left: 34%;
+
 }
 
 .threeDP h1{
