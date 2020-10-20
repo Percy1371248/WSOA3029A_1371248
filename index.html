@@ -3,12 +3,13 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, intial-scale+1.0, minimum-scale=1.0">
         <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css"> 
-     
+        <script type="text/javascript" src="JS/myScript.js"></script>
+        
         <title>Christmas</title>
         
     </head>
      <body>
-      <script src="myScript.js"></script>
+     
         <header>
                 <nav>
                      <img src="Assets/Images/logo.png">
@@ -36,12 +37,24 @@
                              </div>
                              <a data-x="home" href="#home">Home</a>
                    </nav>
-
           </header>
 
-          <div class="menu-btn">
-            <div class="menu-btn__burger"></div>
-          </div>
+        
+          <div id="menu-bar">
+            <div id="menu" onclick="onClickMenu()">
+               <div id="bar1" class="bar"></div>
+               <div id="bar2" class="bar"></div>
+               <div id="bar3" class="bar"></div>
+            </div>
+            
+            <ul class="Mobilenav" id="Mobilenav">
+               <li><a data-x="home"  href="#home">Home</a></li>
+               <li><a data-x="threeD"  href="#threeD">Portfolio</a></li>
+               <li><a data-x="about"  href="#about">About</a></li>
+               <li><a data-x="BlogPost"  href="#BlogPost">BlogPost</a></li>
+            </ul>
+         </div>
+          
 
      <main> 
                <section id="home" data-index="0" class="home">

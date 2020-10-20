@@ -34,6 +34,8 @@ nav img{
     width: 21vw;
 
 }
+
+
 .dropdown {
     float:right;
     overflow: hidden;
@@ -77,6 +79,11 @@ nav img{
       .dropdown:hover .dropdown-content {
         display: block;
       }
+
+      .Mobilenav{
+        display: none;
+    }
+     
     
     /* PAGE SECTIONS CSS*/  
     
@@ -87,6 +94,7 @@ nav img{
     
      
  }
+      
 /* Media query 1*/
  @media screen and (max-width:720px){
      section{
@@ -94,8 +102,25 @@ nav img{
       display: grid;
       }
       nav{
-          display: none;
+        width: 100%;
+        height: 16vw;
+        background-color:rgba(0, 0, 0, 0.884);
+        box-shadow: 0px 3.5px 10px rgba(0, 0, 0, 0.5);
+        position: fixed;
+    }
+    nav a{
+        display: none;
+    }
+    .dropdown .dropbtn { 
+     display: none;
       }
+
+      nav img{
+        width: 65vw;
+    margin-left: 18%;
+    margin-top: -22%;
+    
+    }
 
    div.homeP{
     margin-top: 26%;
@@ -227,57 +252,64 @@ div#Illuspic2 img{
     width: 100%;
  }
 
+   /* Mobile Menu*/
+   #menu{
+	width: 6vw;
+    margin-left: 88%;
+    margin-top: 7%;
+    position: fixed;
+    
+}
+.bar{
+	height: 5px;
+	width: 100%;
+	background-color: white;
+	display: block;
+	border-radius: 5px;
+	transition: 0.3s ease;
+}
+#bar1{
+	transform: translateY(-4px);
+}
+#bar3{
+	transform: translateY(4px);
+}
 
-     /* Menu Bar*/
-.menu-btn {
-    position: absolute;
-    margin-left: 82%;
-    margin-top: 1%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 80px;
-  height: 80px;
-  cursor: pointer;
-  transition: all .5s ease-in-out;
-  /* border: 3px solid #fff; */
+.Mobilenav li a{
+	color:red;
+	text-decoration: none;
 }
-.menu-btn__burger {
-  width: 50px;
-  height: 6px;
-  background: #fff;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(255,101,47,.2);
-  transition: all .5s ease-in-out;
+
+.Mobilenav li{
+	list-style: none;
+	padding: 12vw 0;
 }
-.menu-btn__burger::before,
-.menu-btn__burger::after {
-  content: '';
-  position: absolute;
-  width: 50px;
-  height: 6px;
-  background: #fff;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(255,101,47,.2);
-  transition: all .5s ease-in-out;
+
+.Mobilenav{
+	transition: 0.3s ease;
+    position: fixed;
+    margin-left: 81%;
+    margin-top: 15%;
+    background-color: black;
+    width: 19vw;
+    height: 146vw;
+    text-align: center;
 }
-.menu-btn__burger::before {
-  transform: translateY(-16px);
+
+.change .bar{
+	background-color: red;
 }
-.menu-btn__burger::after {
-  transform: translateY(16px);
+.change #bar1{
+	transform: translateY(4px) rotateZ(-45deg);
 }
-/* ANIMATION */
-.menu-btn.open .menu-btn__burger {
-  transform: translateX(-50px);
-  background: transparent;
-  box-shadow: none;
+.change #bar3{
+	transform: translateY(-6px) rotate(45deg);
 }
-.menu-btn.open .menu-btn__burger::before {
-  transform: rotate(45deg) translate(35px, -35px);
+.change #bar2{
+	opacity: 0;
 }
-.menu-btn.open .menu-btn__burger::after {
-  transform: rotate(-45deg) translate(35px, 35px);
+.change{
+	display: block;
 }
 
 
