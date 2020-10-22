@@ -377,135 +377,156 @@ div#Illuspic2 img{
 
 section.Blog1P{
     
-    margin-top: 6%;
-    margin-left: 12%;
-    width: 76vw;
-    height: 145vw;
+    margin-top: 2%;
+    margin-left: 4%;
+    width: 93vw;
     background-color: black;
     border-radius: 10px;
     flex-direction: column;
+    min-height: 589vw;
     
 }
 
 section.Blog2P{
     
-    margin-top: 6%;
-    margin-left: 12%;
-    width: 76vw;
-    height: 107vw;
+    margin-top: 2%;
+    margin-left: 4%;
+    width: 93vw;
     background-color: black;
     border-radius: 10px;
     flex-direction: column;
+    min-height: 420vw;
       
   }
-  section.Blog3P{
+ section.Blog3P{
     
-    margin-top: 6%;
-    margin-left: 12%;
-    width: 76vw;
-    height: 94vw;
+    margin-top: 20%;
+    margin-left: 4%;
+    width: 93vw;
     background-color: black;
     border-radius: 10px;
     flex-direction: column;
+    min-height: 339vw;
       
   }
   section.ratiP{
     
-    margin-top: 6%;
-    margin-left: 12%;
-    width: 76vw;
-    height: 91vw;
+    margin-top: 20%;
+    margin-left: 4%;
+    width: 93vw;
     background-color: black;
     border-radius: 10px;
     flex-direction: column;
+    min-height: 339vw;
       
   }
 
-  .Blog1P h1{
+ h1.blog1H {
+    color: rgb(255, 255, 255);
+    margin-top: 19%;
+    font-size: 6vw;
+    text-align: center;
+}
+
+p.blog1Pa{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    margin: 1% 1% 1% 1%;
+    font-size: 3.5vw;
+
+}
+
+h2.blog1H2{
     color: rgb(255, 255, 255);
     margin-top: 1%;
     font-size: 4vw;
     text-align: center;
 }
 
-.Blog1P p{
+h1.blog2H{
+    color: rgb(255, 255, 255);
+    margin-top: 19%;
+    font-size: 6vw;
+    text-align: center;
+}
+
+p.blog2Pa{
     color: rgb(255, 255, 255);
     text-align: justify;
     margin: 1% 1% 1% 1%;
-    font-size: 1.5vw;
-    line-height: 1.5;
-
+    font-size: 3.5vw;
 }
 
-.Blog1P h2{
-  color: rgb(255, 255, 255);
-    margin-top: 1%;
-    font-size: 2vw;
-    text-align: center;
-}
-.Blog2P h1{
+h2.blog2H2{
     color: rgb(255, 255, 255);
     margin-top: 1%;
     font-size: 4vw;
     text-align: center;
 }
 
-.Blog2P p{
+h1.blog3H{
+    color: rgb(255, 255, 255);
+    margin-top: 19%;
+    font-size: 6vw;
+    text-align: center;
+}
+
+p.blog3Pa{
     color: rgb(255, 255, 255);
     text-align: justify;
     margin: 1% 1% 1% 1%;
-    font-size: 1.5vw;
-    line-height: 1.5;
+    font-size: 3.5vw;
 }
 
-.Blog2P h2{
-    color: rgb(255, 255, 255);
-    margin-top: 1%;
-    font-size: 2vw;
-    text-align: center;
-}
-.Blog3P h1{
+h2.blog3H2{
     color: rgb(255, 255, 255);
     margin-top: 1%;
     font-size: 4vw;
     text-align: center;
 }
 
-.Blog3P p{
+
+h1.ratiH{
+    color: rgb(255, 255, 255);
+    margin-top: 19%;
+    font-size: 6vw;
+    text-align: center;
+}
+
+p.ratiPa {
     color: rgb(255, 255, 255);
     text-align: justify;
     margin: 1% 1% 1% 1%;
-    font-size: 1.5vw;
-    line-height: 1.5;
+    font-size: 3.5vw;
 }
 
-.Blog3P h2{
+h2.ratiH2{
     color: rgb(255, 255, 255);
     margin-top: 1%;
-    font-size: 2vw;
+    font-size: 4vw;
     text-align: center;
 }
-.ratiP h1{
+h1.ratiH{
+    color: rgb(255, 255, 255);
+    margin-top: 1%;
+    font-size: 6vw;
+    text-align: center;
+}
+
+p.ratiPa{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    margin: 1% 1% 1% 1%;
+    font-size: 3.5vw;
+}
+
+h2.ratiH2{
     color: rgb(255, 255, 255);
     margin-top: 1%;
     font-size: 4vw;
     text-align: center;
 }
 
-.ratiP p{
-    color: rgb(255, 255, 255);
-    text-align: justify;
-    margin: 1% 1% 1% 1%;
-    font-size: 1.5vw;
-    line-height: 1.5;
-}
-
-.ratiP h2{
-    color: rgb(255, 255, 255);
-    margin-top: 1%;
-    font-size: 2vw;
-    text-align: center;
-}
 
 
 
@@ -550,7 +571,11 @@ section.Blog2P{
 .Blog3{
     background: radial-gradient(#641468,black);
 }
+
 .Rati{
+    background: radial-gradient(#641468,black);
+}
+.wFrame{
     background: radial-gradient(#641468,black);
 }
 
@@ -823,14 +848,14 @@ section.Blog2P{
 }
 
 /* //BLOG PAGES content CSS//*/
-.Blog1P h1{
+.blog1H{
     color: rgb(255, 255, 255);
     margin-top: 1%;
     font-size: 4vw;
     text-align: center;
 }
 
-.Blog1P p{
+.blog1Pa{
     color: rgb(255, 255, 255);
     text-align: justify;
     margin: 1% 1% 1% 1%;
@@ -839,20 +864,20 @@ section.Blog2P{
 
 }
 
-.Blog1P h2{
+.blog1H2{
   color: rgb(255, 255, 255);
     margin-top: 1%;
     font-size: 2vw;
     text-align: center;
 }
-.Blog2P h1{
+.blog2H{
     color: rgb(255, 255, 255);
     margin-top: 1%;
     font-size: 4vw;
     text-align: center;
 }
 
-.Blog2P p{
+.blog2Pa{
     color: rgb(255, 255, 255);
     text-align: justify;
     margin: 1% 1% 1% 1%;
@@ -860,20 +885,20 @@ section.Blog2P{
     line-height: 1.5;
 }
 
-.Blog2P h2{
+.blog2H2{
     color: rgb(255, 255, 255);
     margin-top: 1%;
     font-size: 2vw;
     text-align: center;
 }
-.Blog3P h1{
+.blog3H{
     color: rgb(255, 255, 255);
     margin-top: 1%;
     font-size: 4vw;
     text-align: center;
 }
 
-.Blog3P p{
+.blog3Pa{
     color: rgb(255, 255, 255);
     text-align: justify;
     margin: 1% 1% 1% 1%;
@@ -881,20 +906,20 @@ section.Blog2P{
     line-height: 1.5;
 }
 
-.Blog3P h2{
+.blog3H2{
     color: rgb(255, 255, 255);
     margin-top: 1%;
     font-size: 2vw;
     text-align: center;
 }
-.ratiP h1{
+.ratiH{
     color: rgb(255, 255, 255);
     margin-top: 1%;
     font-size: 4vw;
     text-align: center;
 }
 
-.ratiP p{
+.ratiPa{
     color: rgb(255, 255, 255);
     text-align: justify;
     margin: 1% 1% 1% 1%;
@@ -902,12 +927,18 @@ section.Blog2P{
     line-height: 1.5;
 }
 
-.ratiP h2{
+.ratiH2{
     color: rgb(255, 255, 255);
     margin-top: 1%;
     font-size: 2vw;
     text-align: center;
 }
 
-
-
+.wFramePics{
+    width: 20vw;
+    height: 20vw;
+}
+.stylePics{
+    width: 20vw;
+    height: 20vw;
+}
