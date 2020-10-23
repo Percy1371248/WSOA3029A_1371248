@@ -383,7 +383,7 @@ section.Blog1P{
     background-color: black;
     border-radius: 10px;
     flex-direction: column;
-    min-height: 589vw;
+    height: initial;
     
 }
 
@@ -395,20 +395,59 @@ section.Blog2P{
     background-color: black;
     border-radius: 10px;
     flex-direction: column;
-    min-height: 420vw;
+    height: initial;
       
   }
  section.Blog3P{
     
-    margin-top: 20%;
+    margin-top: 2%;
     margin-left: 4%;
     width: 93vw;
     background-color: black;
     border-radius: 10px;
     flex-direction: column;
-    min-height: 339vw;
+    height: initial;
       
   }
+
+  section.Blog4P{
+    
+    margin-top: 2%;
+    margin-left: 4%;
+    width: 93vw;
+    background-color: black;
+    border-radius: 10px;
+    flex-direction: column;
+    height: initial;;
+      
+  }
+  section.Blog5P{
+    
+    margin-top: 2%;
+    margin-left: 4%;
+    width: 93vw;
+    background-color: black;
+    border-radius: 10px;
+    flex-direction: column;
+    height: initial;
+      
+  }
+  section.Blog6P{
+    
+    margin-top: 2%;
+    margin-left: 4%;
+    width: 93vw;
+    background-color: black;
+    border-radius: 10px;
+    flex-direction: column;
+    height: initial;
+      
+  }
+
+
+
+
+
   section.ratiP{
     
     margin-top: 20%;
@@ -417,7 +456,7 @@ section.Blog2P{
     background-color: black;
     border-radius: 10px;
     flex-direction: column;
-    min-height: 339vw;
+    height: initial;
       
   }
 
@@ -464,6 +503,7 @@ h2.blog2H2{
     text-align: center;
 }
 
+
 h1.blog3H{
     color: rgb(255, 255, 255);
     margin-top: 19%;
@@ -479,6 +519,68 @@ p.blog3Pa{
 }
 
 h2.blog3H2{
+    color: rgb(255, 255, 255);
+    margin-top: 1%;
+    font-size: 4vw;
+    text-align: center;
+}
+
+h1.blog4H{
+    color: rgb(255, 255, 255);
+    margin-top: 19%;
+    font-size: 6vw;
+    text-align: center;
+}
+
+p.blog4Pa{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    margin: 1% 1% 1% 1%;
+    font-size: 3.5vw;
+}
+
+h2.blog4H2{
+    color: rgb(255, 255, 255);
+    margin-top: 1%;
+    font-size: 4vw;
+    text-align: center;
+}
+
+h1.blog5H{
+    color: rgb(255, 255, 255);
+    margin-top: 19%;
+    font-size: 6vw;
+    text-align: center;
+}
+
+p.blog5Pa{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    margin: 1% 1% 1% 1%;
+    font-size: 3.5vw;
+}
+
+h2.blog5H2{
+    color: rgb(255, 255, 255);
+    margin-top: 1%;
+    font-size: 4vw;
+    text-align: center;
+}
+h1.blog6H{
+    color: rgb(255, 255, 255);
+    margin-top: 19%;
+    font-size: 6vw;
+    text-align: center;
+}
+
+p.blog6Pa{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    margin: 1% 1% 1% 1%;
+    font-size: 3.5vw;
+}
+
+h2.blog6H2{
     color: rgb(255, 255, 255);
     margin-top: 1%;
     font-size: 4vw;
@@ -527,7 +629,24 @@ h2.ratiH2{
     text-align: center;
 }
 
+/*Wire Frame and Style guide*/
+.wFramePics{
 
+    width: 100%;
+    height: initial;
+    display: block;
+}
+.wFramePics img{
+    width: 80vw;
+    margin-top: 2%;
+    margin-left: 9%;
+}
+.wFramePics h1{
+    color: white;
+    font-size: 6vw;
+    text-align: center;
+    margin-top: 4%;
+}
 
 
 }
@@ -568,7 +687,17 @@ h2.ratiH2{
 .Blog2{
     background: radial-gradient(#641468,black);
 }
+
 .Blog3{
+    background: radial-gradient(#641468,black);
+}
+.Blog4{
+    background: radial-gradient(#641468,black);
+}
+.Blog5{
+    background: radial-gradient(#641468,black);
+}
+.Blog6{
     background: radial-gradient(#641468,black);
 }
 
@@ -646,7 +775,7 @@ h2.ratiH2{
     margin-top: 6%;
     margin-left: 12%;
     width: 76vw;
-    height: 145vw;
+    height: inherit;
     background-color: black;
     border-radius: 10px;
     flex-direction: column;
@@ -658,7 +787,7 @@ h2.ratiH2{
     margin-top: 6%;
     margin-left: 12%;
     width: 76vw;
-    height: 107vw;
+    height: inherit;
     background-color: black;
     border-radius: 10px;
     flex-direction: column;
@@ -669,18 +798,54 @@ h2.ratiH2{
     margin-top: 6%;
     margin-left: 12%;
     width: 76vw;
-    height: 94vw;
+    height: inherit;
     background-color: black;
     border-radius: 10px;
     flex-direction: column;
       
   }
+
+  .Blog4P{
+    
+    margin-top: 6%;
+    margin-left: 12%;
+    width: 76vw;
+    height: inherit;
+    background-color: black;
+    border-radius: 10px;
+    flex-direction: column;
+      
+  }
+  .Blog5P{
+    
+    margin-top: 6%;
+    margin-left: 12%;
+    width: 76vw;
+    height: inherit;
+    background-color: black;
+    border-radius: 10px;
+    flex-direction: column;
+      
+  }
+  .Blog6P{
+    
+    margin-top: 6%;
+    margin-left: 12%;
+    width: 76vw;
+    height: inherit;
+    background-color: black;
+    border-radius: 10px;
+    flex-direction: column;
+      
+  }
+
+
   .ratiP{
     
     margin-top: 6%;
     margin-left: 12%;
     width: 76vw;
-    height: 91vw;
+    height: inherit;
     background-color: black;
     border-radius: 10px;
     flex-direction: column;
@@ -746,7 +911,7 @@ h2.ratiH2{
 }
 /* //PAGE CONTENT CSS//*/
 
-/*3D*/
+/*3D text*/
 .threeDVid video{
     margin-top: 3%;
     margin-left: 20%;
@@ -792,7 +957,7 @@ h2.ratiH2{
 }
 
 
-/*2D*/
+/*2D text*/
 .twoDVid video{
     margin-top: 3%;
     margin-left: 28%;
@@ -912,6 +1077,75 @@ h2.ratiH2{
     font-size: 2vw;
     text-align: center;
 }
+.blog4H{
+    color: rgb(255, 255, 255);
+    margin-top: 1%;
+    font-size: 4vw;
+    text-align: center;
+}
+
+.blog4Pa{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    margin: 1% 1% 1% 1%;
+    font-size: 1.5vw;
+    line-height: 1.5;
+}
+
+.blog4H2{
+    color: rgb(255, 255, 255);
+    margin-top: 1%;
+    font-size: 2vw;
+    text-align: center;
+}
+.blog5H{
+    color: rgb(255, 255, 255);
+    margin-top: 1%;
+    font-size: 4vw;
+    text-align: center;
+}
+
+.blog5Pa{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    margin: 1% 1% 1% 1%;
+    font-size: 1.5vw;
+    line-height: 1.5;
+}
+
+.blog5H2{
+    color: rgb(255, 255, 255);
+    margin-top: 1%;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.blog6H{
+    color: rgb(255, 255, 255);
+    margin-top: 1%;
+    font-size: 4vw;
+    text-align: center;
+}
+
+.blog6Pa{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    margin: 1% 1% 1% 1%;
+    font-size: 1.5vw;
+    line-height: 1.5;
+}
+
+.blog6H2{
+    color: rgb(255, 255, 255);
+    margin-top: 1%;
+    font-size: 2vw;
+    text-align: center;
+}
+
+
+
+
+
 .ratiH{
     color: rgb(255, 255, 255);
     margin-top: 1%;
@@ -935,10 +1169,20 @@ h2.ratiH2{
 }
 
 .wFramePics{
-    width: 20vw;
-    height: 20vw;
+margin-top:15% ;
+    width: 100%;
+    height: initial;
+    display: block;
 }
-.stylePics{
-    width: 20vw;
-    height: 20vw;
+.wFramePics img{
+    width: 80vw;
+    margin-top: 2%;
+    margin-left: 9%;
 }
+.wFramePics h1{
+    color: white;
+    font-size: 4vw;
+    text-align: center;
+    margin-top: 2%;
+}
+
