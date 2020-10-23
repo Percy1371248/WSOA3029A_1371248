@@ -6,6 +6,9 @@
 body{
     font-family: Arial;
 }
+html {
+    scroll-behavior: smooth;
+  }
 
 /* //Desktop Nav Bar CSS//*/
 
@@ -79,7 +82,7 @@ nav img{
       .Mobilenav{
         display: none;
     }
-     
+
     
     /* //PAGE SECTIONS and Media Query CSS//*/  
     
@@ -204,9 +207,8 @@ div.illustrationP h1{
 
 div.aboutP h1{
     
-
-    font-size: 6vw;
-    margin-top: -149%;
+    font-size: 9vw;
+    margin-top: -170%;
 }
 
 /*Content pages responsive*/
@@ -333,12 +335,13 @@ div#Illuspic2 img{
 .Mobilenav li a{
 	color:white;
     text-decoration: none;
+    border-radius: 10px;
     
 }
 
-.Mobilenav a:hover {
+.Mobilenav li a:hover{
     background-color: #f808c9f3;
-  }
+     }
 
 .Mobilenav li{
 	list-style: none;
@@ -443,6 +446,42 @@ section.Blog2P{
     height: initial;
       
   }
+  .mBlogP{
+    
+        margin-left: 10%;
+        width: 92vw;
+        height: inherit;
+        flex-direction: column;
+    
+}
+.mBlogP li{
+    margin-top: -6%;
+}
+
+.mBlogP a{
+    display: block;
+    background-color: #f808c9f3;
+    font-size: 5.5vw;
+    color: white;
+    text-align: center;
+    padding: 5vw 0vw;
+    text-decoration: none;
+    border-radius: 68px;
+    width: 86%;
+    height: 4rem;
+    margin-top: 2%;
+}
+
+.mBlogH{
+
+    color: rgb(255, 255, 255);
+    margin-top: 20%;
+    margin-left:-13%;
+    font-size: 9vw;
+    text-align: center;
+
+}
+
 
 
 
@@ -698,6 +737,10 @@ h2.ratiH2{
     background: radial-gradient(#641468,black);
 }
 .Blog6{
+    background: radial-gradient(#641468,black);
+}
+
+.mBlog{
     background: radial-gradient(#641468,black);
 }
 
