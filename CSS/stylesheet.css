@@ -88,7 +88,8 @@ nav img{
     
  section{
      min-height:55vw;
-     display: flex;    
+     display: flex;
+         
  }
       
 /*// Media query 1//*/
@@ -694,6 +695,8 @@ h2.ratiH2{
 
  .home {
     background: radial-gradient( #641468, black);
+    width: 100%;
+    height: auto;
 }
 .threeD {
     background: radial-gradient( #641468,  black);
