@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: Arial;
+    font-family: 'Ubuntu', sans-serif;
 }
 html {
     scroll-behavior: smooth;
@@ -901,6 +901,7 @@ h2.ratiH2{
  
     color: white;
     font-size: 9vw;
+    font-family: 'Anton', sans-serif;
 
 }
 .threeDP h1{
@@ -908,7 +909,7 @@ h2.ratiH2{
     color: white;
     font-size: 9vw;
     margin-top: -115%;
-
+    font-family: 'Anton', sans-serif;
    
 }
 .twoDP h1{
@@ -916,18 +917,21 @@ h2.ratiH2{
     color: white;
     font-size: 9vw;
     margin-top: -92%;
+    font-family: 'Anton', sans-serif;
 }
 .illustrationP h1{
 
     color: white;
     font-size: 9vw;
     margin-top: -115%;
+    font-family: 'Anton', sans-serif;
 }
 .aboutP h1{
     
     color: white;
     font-size: 6vw;
     margin-top: -149%;
+    font-family: 'Anton', sans-serif;
 }
 
 /* //HEADER PAGE IMAGES CSS//*/
@@ -966,6 +970,7 @@ h2.ratiH2{
     color: white;
     font-size: 5vw;
     margin-left: 48%;
+    font-family: 'Mirza', cursive;
 }
 .chucksC{
     color: white;
@@ -979,6 +984,7 @@ h2.ratiH2{
     font-size: 5vw;
     margin-left: 57%;
     margin-top: 1%;
+    font-family: 'Mirza', cursive;
 }
 .buggC{
     color: white;
@@ -991,6 +997,7 @@ h2.ratiH2{
     font-size: 5vw;
     margin-left: 62%;
     margin-top: 1%;
+    font-family: 'Mirza', cursive;
 }
 .wapC{
     color: white;
@@ -1013,6 +1020,7 @@ h2.ratiH2{
     font-size: 5vw;
     margin-left: 58%;
     margin-top: 1%;
+    font-family: 'Mirza', cursive;
 }
 .gumC{
     color: white;
@@ -1027,6 +1035,7 @@ h2.ratiH2{
     font-size: 5vw;
     margin-left: 50%;
     margin-top: 1%;
+    font-family: 'Mirza', cursive;
 
 }
 .larryC{
@@ -1069,6 +1078,7 @@ h2.ratiH2{
     margin: 1% 1% 1% 1%;
     font-size: 1.5vw;
     line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -1091,6 +1101,7 @@ h2.ratiH2{
     margin: 1% 1% 1% 1%;
     font-size: 1.5vw;
     line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .blog2H2{
@@ -1112,6 +1123,7 @@ h2.ratiH2{
     margin: 1% 1% 1% 1%;
     font-size: 1.5vw;
     line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .blog3H2{
@@ -1133,6 +1145,7 @@ h2.ratiH2{
     margin: 1% 1% 1% 1%;
     font-size: 1.5vw;
     line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .blog4H2{
@@ -1154,6 +1167,7 @@ h2.ratiH2{
     margin: 1% 1% 1% 1%;
     font-size: 1.5vw;
     line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .blog5H2{
@@ -1176,6 +1190,7 @@ h2.ratiH2{
     margin: 1% 1% 1% 1%;
     font-size: 1.5vw;
     line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .blog6H2{
@@ -1202,6 +1217,7 @@ h2.ratiH2{
     margin: 1% 1% 1% 1%;
     font-size: 1.5vw;
     line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .ratiH2{
