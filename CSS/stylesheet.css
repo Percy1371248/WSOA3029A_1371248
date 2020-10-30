@@ -88,7 +88,7 @@ nav img{
     /* //PAGE SECTIONS and Media Query CSS//*/  
     
  section{
-     min-height:55vw;
+     min-height:100vh;
      display: flex;
      background: radial-gradient( #641468, black);
  }
@@ -129,25 +129,21 @@ nav img{
     /*Header Pages responsive*/
 
    div.homeP{
-    margin-top: 26%;
-    margin-left: 14%;
-    width: 73vw;
-    height: 117vw;
+    margin-top: 10%;
+    margin-left: 0%;
      }
 
    div.threeDP{
-    margin-top: 26%;
-    margin-left: 13%;
-    width: 73vw;
+    margin-top: 20%;
+    margin-left: 1%;
     height: 117vw;
 
    }
 
 
    div.twoDP{
-    margin-top: 26%;
-    margin-left: 14%;
-    width: 73vw;
+    margin-top: 30%;
+    margin-left: 0%;
     height: 117vw;
    }
 
@@ -160,23 +156,34 @@ nav img{
 
    div.aboutP{
 
-    margin-top: 26%;
-    margin-left: 14%;
+    margin-top: 15%;
+    margin-left: 19%;
     width: 63vw;
-    height: 117vw;
+    height: 80vw;
 
    }
 
+   aside.aboutMe{
+    background-color: black;
+    width: 91vw;
+    height: 77vw;
+    margin-top: 2%;
+
+}
+div.homeP img{
+    width: 100vw;
+}
+
    div.threeDP img{
 
-    width: 95vw;
-    height: 100vw;
+    width: 93vw;
+    height: 46vw;
 }
 
 div.twoDP img{
 
     width: 95vw;
-    height: 100vw;
+    height: 59vw;
 }
 
 div.illustrationP img{
@@ -193,9 +200,9 @@ div.homeP h1{
 
 div.threeDP h1{
 
-      font-size: 14vw;
-    margin-top: -180%;
-
+    font-size: 17vw;
+    margin-top: 45%;
+    margin-left: 0%;
    
 }
 
@@ -203,7 +210,7 @@ div.twoDP h1{
    
 
     font-size: 14vw;
-    margin-top: -161%;
+
 }
 
 div.illustrationP h1{
@@ -216,7 +223,24 @@ div.illustrationP h1{
 div.aboutP h1{
     
     font-size: 9vw;
-    margin-top: -170%;
+}
+h1.aboutmeHeader{
+    color: rgb(255, 255, 255);
+    margin-top: 1%;
+    font-size: 6vw;
+    text-align: center;
+    
+}
+
+p.aboutmePa{
+
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    margin: 2% 2% 2% 2%;
+    font-size: 3.5vw;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 /*Content pages responsive*/
@@ -230,7 +254,7 @@ div.threeDVid video{
 
 h1.chucksH{
     color: white;
-    font-size: 11vw;
+    font-size: 14vw;
     margin-left: 15%;
     margin-top: 28%;
 }
@@ -242,7 +266,7 @@ figcaption.chucksC{
 }
 h1.BuggH{
     color: white;
-    font-size: 11vw;
+    font-size: 14vw;
     margin-left: 31%;
     margin-top: 28%;
 }
@@ -250,19 +274,19 @@ h1.BuggH{
 figcaption.buggC{
     color: white;
     font-size: 7vw;
-    margin-left: 28%;
+    margin-left: 18%;
     margin-top: 20%;
 }
 h1.wapH{
     color: white;
-    font-size: 11vw;
+    font-size: 14vw;
     margin-left: 37%;
     margin-top: 28%
 }
 figcaption.wapC{
     color: white;
     font-size: 7vw;
-    margin-left: 30%;
+    margin-left: 20%;
     margin-top: 20%;
 }
 
@@ -276,21 +300,21 @@ div.twoDVid video{
 
 h1.gumH{
     color: white;
-    font-size: 11vw;
+    font-size: 14vw;
     margin-left: 23%;
     margin-top: 28%;
 }
 figcaption.gumC{
     color: white;
     font-size: 7vw;
-    margin-left: 22%;
+    margin-left: 20%;
     margin-top: 20%
 }
 
 h1.larryH{
     
     color: white;
-    font-size: 11vw;
+    font-size: 14vw;
     margin-left: 13%;
     margin-top: 28%;
 
@@ -488,39 +512,33 @@ h2.blogHeader2{
 
 
 .homeP{
-    margin-top: 10%;
-    margin-left: 28%;
+    margin-top: 5%;
+    margin-left: 40%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 40vw;
-    height: 40vw;
-    background-color: #f7981f;
+    
 }
 
  .threeDP{
-    margin-top: 5%;
-    margin-left: 28%;
+    margin-top: 3%;
+    margin-left: -2%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 40vw;
-    height: 40vw;
-    background-color: #0012ff;
+
   
 }
 .twoDP{
-    margin-top: 5%;
-    margin-left: 28%;
+    margin-top: 1%;
+    margin-left: 0%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 40vw;
-    height: 40vw;
-    background-color: #b50000;
+  
 
 }
 .illustrationP{
@@ -542,11 +560,18 @@ h2.blogHeader2{
     justify-content: center;
     width: 30vw;
     height: 40vw;
-    background-color:#ff3dbe;
+    background-color: #ff3dbe;
     margin-top: 10%;
-    margin-left: 4%;
+    margin-left: 1%;
     
     
+}
+.aboutMe{
+    background-color: black;
+    width: 65vw;
+    height: 61vw;
+    margin: 3%
+
 }
 
 .BlogPage{
@@ -570,22 +595,25 @@ h2.blogHeader2{
     color: white;
     font-size: 9vw;
     font-family: 'Anton', sans-serif;
+    z-index: 4;
 
 }
 .threeDP h1{
 
     color: white;
-    font-size: 9vw;
-    margin-top: -115%;
+    font-size: 12vw;
+    margin-left: 4%;
     font-family: 'Anton', sans-serif;
+    position: absolute;
    
 }
 .twoDP h1{
    
     color: white;
-    font-size: 9vw;
-    margin-top: -92%;
+    font-size: 12vw;
+    margin-top: 0%;
     font-family: 'Anton', sans-serif;
+    position: absolute;
 }
 .illustrationP h1{
 
@@ -602,17 +630,39 @@ h2.blogHeader2{
     font-family: 'Anton', sans-serif;
 }
 
-/* //HEADER PAGE IMAGES CSS//*/
+.aboutmeHeader{
+    color: rgb(255, 255, 255);
+    margin-top: 1%;
+    font-size: 4vw;
+    text-align: center;
+    
+}
 
+.aboutmePa{
+
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    margin: 2% 2% 2% 2%;
+    font-size: 1.5vw;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* //HEADER PAGE IMAGES CSS//*/
+.homeP img{
+    width: 60vw;
+    position: absolute;
+}
+ 
 .threeDP img{
 
-    width: 110%;
-    height: 110%;
+    width: 50vw;
+    
 }
 .twoDP img{
 
-    width: 100%;
-    height: 100%;
+    width: 50vw;
 }
 .illustrationP img{
 
@@ -628,7 +678,7 @@ h2.blogHeader2{
 
 /*3D text*/
 .threeDVid video{
-    margin-top: 3%;
+    margin-top: 0%;
     margin-left: 20%;
     width: 67vw;
     border-radius: 67px;
@@ -637,81 +687,79 @@ h2.blogHeader2{
 }
 .chucksH{
     color: white;
-    font-size: 5vw;
-    margin-left: 48%;
+    font-size: 6vw;
+    margin-left: 50%;
     font-family: 'Mirza', cursive;
 }
 .chucksC{
     color: white;
-    font-size: 2vw;
-    margin-left: 58%;
-    margin-top: 3%;
+    font-size: 3vw;
+    margin-left: 54%;
+    margin-top: 1%;
 }
 
 .BuggH{
     color: white;
-    font-size: 5vw;
+    font-size: 6vw;
     margin-left: 57%;
-    margin-top: 1%;
     font-family: 'Mirza', cursive;
 }
 .buggC{
     color: white;
-    font-size: 2vw;
-    margin-left: 62%;
-    margin-top: 3%;
+    font-size: 3vw;
+    margin-left: 50%;
+    margin-top: 1%;
 }
 .wapH{
     color: white;
-    font-size: 5vw;
-    margin-left: 62%;
-    margin-top: 1%;
+    font-size: 6vw;
+    margin-left: 61%;
     font-family: 'Mirza', cursive;
 }
 .wapC{
     color: white;
-    font-size: 2vw;
-    margin-left: 61%;
-    margin-top: 3%;
+    font-size: 3vw;
+    margin-left: 50%;
+    margin-top: 1%;
 }
 
 
 /*2D text*/
 .twoDVid video{
-    margin-top: 3%;
-    margin-left: 28%;
-    width: 65vw;
+    margin-top: 0%;
+    margin-left: 20%;
+    width: 67vw;
     border-radius: 67px;
+ 
 }
 
 .gumH{
     color: white;
-    font-size: 5vw;
-    margin-left: 58%;
-    margin-top: 1%;
+    font-size: 6vw;
+    margin-left: 50%;
     font-family: 'Mirza', cursive;
 }
 .gumC{
     color: white;
-    font-size: 2vw;
-    margin-left: 62%;
-    margin-top: 3%
+    font-size: 3vw;
+    margin-left: 50%;
+    margin-top: 1%;
 }
+
 
 .larryH{
     
     color: white;
-    font-size: 5vw;
+    font-size: 6vw;
     margin-left: 50%;
-    margin-top: 1%;
     font-family: 'Mirza', cursive;
 
 }
 .larryC{
     color: white;
-    font-size: 2vw;
-    margin-left: 65%;
-    margin-top: 3%;
+    font-size: 3vw;
+    margin-left: 54%;
+    margin-top: 1%;
 
 }
 
