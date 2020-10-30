@@ -656,19 +656,34 @@ h2.blogHeader2{
 }
  
 .threeDP img{
-
+    transition: transform .2s;
     width: 50vw;
     
 }
-.twoDP img{
 
+.threeDP img:hover{
+    transform: scale(1.1);
+}
+
+
+.twoDP img{
+    transition: transform .2s;
     width: 50vw;
 }
+
+.twoDP img:hover{
+    transform: scale(1.1);
+}
+
+
+
 .illustrationP img{
 
     width: 110%;
     height: 110%;
 }
+
+
 .aboutP img{
     
     width: 100%;
